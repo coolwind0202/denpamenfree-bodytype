@@ -1,0 +1,41 @@
+<head>
+    <meta charset="UTF-8">
+    <title> 体格判断支援 </title>
+    <link href="denpa.css" rel="stylesheet">
+</head>
+<body>
+
+    <div id="screen">
+        <img id="body-line">
+    </div>
+    画像URL：<input type="text" id="url-input">
+    <input type="button" id="url-enter" value="送信">
+
+    <div style="float:none">
+        体格：
+
+        <select id="body-type">
+            <option value="no-image" selected>未選択</option>
+            <optgroup label="回避0">
+                <option value="82 95">最大型</option>
+                <option value="74 92">準大</option>
+                <option value="66 91">中間</option>
+                <option value="64 88">準速</option>
+                <option value="62 83">最速</option>
+            </optgroup>
+            <optgroup label="回避3">
+                <option value="73 84">最大型</option>
+                <option value="65 81">準大 - 1</option>
+                <option value="67 73">準大 - 2</option>
+                <option value="62 76">準準大 - 1</option>
+                <option value="61 69">準準大 - 2</option>
+                <option value="57 66">準準速 - 1</option>
+                <option value="59 75">準準速 - 2</option>
+                <option value="52 63">準速 - 1</option>
+                <option value="53 72">準速 - 2</option>
+                <option value="50 60">最速</option>
+            </optgroup>
+        </select>
+    </div>
+    <script src="denpa.js"></script>
+</body>
