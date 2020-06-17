@@ -1,0 +1,13 @@
+#screen  {
+    float:left;
+    width: 400px;
+    height: 240px;
+    border: 1px solid black;
+    margin: 10px;
+    position: relative;
+}
+
+#body-line {
+    position: absolute;
+    bottom: 21px;
+}
