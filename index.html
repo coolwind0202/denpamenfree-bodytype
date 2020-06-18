@@ -13,7 +13,7 @@
         <img id="body-line">
     </div>
     画像URL：<input type="text" id="url-input">
-    <input type="button" id="url-enter" value="送信">
+    <input type="button" id="url-enter" value="設定">
 
     <div style="float:none">
         体格：
@@ -33,13 +33,60 @@
                 <option value="67 73">準大 - 2</option>
                 <option value="62 76">準準大 - 1</option>
                 <option value="61 69">準準大 - 2</option>
-                <option value="57 66">準準速 - 1</option>
+                <option value="56 66">準準速 - 1</option>
                 <option value="59 75">準準速 - 2</option>
                 <option value="52 63">準速 - 1</option>
                 <option value="53 72">準速 - 2</option>
                 <option value="50 60">最速</option>
             </optgroup>
+            <optgroup label="回避6">
+                <option value="63 59">最大型</option>
+                <option value="55 48">準大 - 1</option>
+                <option value="57 57">準大 - 2</option>
+                <option value="51 45">中間</option>
+                <option value="47 43">準速</option>
+                <option value="42 39">最速</option>
+            </optgroup>
         </select>
+    </div>
+    
+    <div id="description">
+        <h1>
+            このページについて
+        </h1>
+        
+        <p>
+            このページは、電波人間のRPG FREE! の電波人間の体格判断を画像から行う際の支援用ツールとして作成しました。<br>
+            あくまで支援を行うツールであるため、画像に体格判断用の目安ラインを重ねる機能に限定しています。<br>
+            
+            厳選目的での使用を想定しているため、回避10以上については現在登録していません
+            （そもそも、体つきの差がきわめて微小なので体格判断が困難であると判断しています）。<br>
+            同じ初期HPで、HP以外のステータスの成長に差がある個体（レア個体）については基本的に網羅していますが、
+            回避6中間サイズについては差異が見られなかったため省略しています。<br>
+            体格は<a href="http://nakagai.blog111.fc2.com/blog-entry-382.html">全サイズまとめ　（回避別）</a> を元に作成・配置しています。
+        </p>
+        <hr>
+        <p>
+            「画像URL」に電波人間の「ふれあい」時の画像のURLを入力して、「設定」ボタンをクリックします。
+            「体格」の選択肢から、目安を使用したい体格を選択します。
+            青線で目安線が表示されるので、最も青線とボディラインが一致する体格を探してください。
+        </p>
+        
+        <h1>
+            Q. ふれあい時の画像で使用することはできますか？
+        </h1>
+        <p>
+            A. **できません。** 出生画面を使用できればそれが最適だったのですが、仕様上撮影が不可能であるため断念しています。<br>
+            出生直後は戦闘を積まなければ子供状態なので、セーブせずに体格判断することは現時点ではできません。
+            既に成長済みの電波人間に使っていただければと思います。
+        </p>
+        
+        <h1>
+            Q. 青色の電波人間を使用すると見づらいです。
+        </h1>
+        <p>
+            A. ペイント剤使ってください（適当）
+        </p>
     </div>
     <script src="denpa.js"></script>
 </body>
